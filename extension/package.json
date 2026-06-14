@@ -1,0 +1,31 @@
+{
+  "name": "alty",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox --mv2",
+    "dev:safari": "wxt -b safari --mv3",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox --mv2",
+    "build:safari": "wxt build -b safari --mv3",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox --mv2",
+    "zip:safari": "wxt zip -b safari --mv3",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@types/chrome": "^0.0.268",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.4.5",
+    "wxt": "^0.18.0"
+  }
+}
