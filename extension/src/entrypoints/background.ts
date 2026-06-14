@@ -356,7 +356,7 @@ export default defineBackground(() => {
           );
         } else {
           // default
-          const serverUrl = 'http://localhost:3000/api/generate-alt-text';
+          const serverUrl = 'https://alty.up.railway.app/api/generate-alt-text';
           console.log('Sending to server...', serverUrl);
           
           const payload: any = {
